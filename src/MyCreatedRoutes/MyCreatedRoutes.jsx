@@ -7,6 +7,11 @@ import MyCart from "../AllPages/MyCart/MyCart";
 import LoginP from "../AllPages/LoginPage/LoginP";
 import RegisterPage from "../AllPages/RegisterPage/RegisterPage";
 import FormOneServer from "../AllPages/FormForBrands/FormsOneServer/FormOneServer";
+import Advertisements from "../AllPages/Advertisements/Advertisements";
+import PrivatesRoute from "./PrivatesRoute";
+import Profile from "../AllPages/Profile/Profile";
+import Edit from "../AllPages/EditBrands/Edit";
+import DetailsPage from "../AllPages/DetailsPage/DetailsPage";
 
 const router = createBrowserRouter ([
     {
@@ -17,19 +22,42 @@ const router = createBrowserRouter ([
         {
             path: "/",
             element : <Home></Home>,
+            loader : ()=> fetch('http://localhost:4000/adsBrands')
             
         },
+        {
+          path : "/profile",
+          element: <Profile></Profile>
+        }
+        ,
+        {
+          path :"/viewdetails/:id",
+          element : <DetailsPage></DetailsPage>
+        },
+        
         {
             path: "/adsbrand",
             element : <FormOneServer></FormOneServer>
         },
         {
+            path: "/adsSection/:id",
+            element: <PrivatesRoute> <Advertisements></Advertisements></PrivatesRoute>,
+            loader: ({ params }) =>fetch( `http://localhost:4000/adsBrands/${params.id}` ),
+          },
+        ///adsSection/:id
+        {
             path:"/addproducts",
             element: <FormTwoClients></FormTwoClients>
         },
         {
-            path: "/mycart",
-            element: <MyCart></MyCart>
+            path: "/addtoCart",
+            element: <MyCart></MyCart>,
+            loader : ()=> fetch('http://localhost:4000/addtoCart')
+        },
+        {
+          path : "/edit/:id",
+          element: <Edit></Edit>,
+          loader : ({params}) => fetch(`http://localhost:4000/addProducts20/${params.id}`)
         },
         {
             path: "/login",

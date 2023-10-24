@@ -10,6 +10,7 @@ const FromOneServer = () => {
     const ads_img_0 = form.ads_img_0.value;
     const ads_img_1 = form.ads_img_1.value;
     const ads_img_2 = form.ads_img_2.value;
+    const ads_img_3 = form.ads_img_2.value
 
     form.reset();
 
@@ -18,7 +19,8 @@ const FromOneServer = () => {
       photoURL,
       ads_img_0,
       ads_img_1,
-      ads_img_2
+      ads_img_2,
+      ads_img_3
     };
     console.log(brands);
     fetch(
@@ -47,10 +49,7 @@ const FromOneServer = () => {
         <form onSubmit={handleserverBrand}>
           <div className="text-center">
             <p className="text-5xl font-normal text-[#374151]">Add New Brand</p>
-            <p className="my-3">
-              Iconic car brands offer a blend of innovation, quality, and
-              luxury, creating a diverse automotive landscape.
-            </p>
+            
           </div>
 
           <input
@@ -84,6 +83,13 @@ const FromOneServer = () => {
           <input
             type="text"
             name="ads_img_2"
+            className="w-full my-2 p-1 rounded-md"
+            placeholder="Photo URL 2"
+            id=""
+          />
+          <input
+            type="text"
+            name="ads_img_3"
             className="w-full my-2 p-1 rounded-md"
             placeholder="Photo URL 2"
             id=""
