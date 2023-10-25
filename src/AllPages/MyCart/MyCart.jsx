@@ -17,8 +17,8 @@ const MyCart = () => {
   return (
     <div>
        <div className="flex m-5 justify-center">
-       <h2 className=" text-3xl flex  font-serif mt-3 underline text-red-400">Buy Your Fashion </h2>
-       <h2 className="mt-6 ml-4 "> <BiHappyHeartEyes></BiHappyHeartEyes></h2>
+       <h2 className=" text-4xl flex  font-serif mt-4 underline text-red-400">Buy Your Fashion </h2>
+       <h2 className="mt-6 ml-4 p-2  "> <BiHappyHeartEyes></BiHappyHeartEyes></h2>
        </div>
     <div className ="gap-5 mt-10 mb-3 ml-[20vh] mr-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center">
         {
