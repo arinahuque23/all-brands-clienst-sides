@@ -2,10 +2,7 @@
 import { Link, useNavigate } from "react-router-dom";
 
 const BrandsBody = ({ brands }) => {
-
-    const Navigate = useNavigate()
-    
-
+ const Navigate = useNavigate()
   const { _id, name, photoURL } = brands;
 
   const handleAdsBrand = ()=>{
