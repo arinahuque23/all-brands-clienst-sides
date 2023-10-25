@@ -29,7 +29,7 @@ const TestiMonial = () => {
           </div>
         </div>
         <div className="card-body">
-          <h2 className="text-xl text-blue-400 text-center">Rafsan Ahmed </h2>
+          <h2 className="text-xl text-blue-400 text-center">Rafa Huque</h2>
           <h1>“I recently had the pleasure of staying at [HotelName], and it was an unforgettable experience. From the moment I arrived, the staff went above and beyond to ensure my comfort and satisfaction.!</h1>
         </div>
       </div>
@@ -40,7 +40,7 @@ const TestiMonial = () => {
           </div>
         </div>
         <div className="card-body">
-          <h2 className="text-xl text-blue-400 text-center">Rafsan Ahmed </h2>
+          <h2 className="text-xl text-blue-400 text-center">Bushra Islam </h2>
         <h1>“My husband and I went for dinner in restaurant X and really enjoyed the atmosphere. The food was fresh and delicious, and the best part was that the chef sent us a dessert they had created that day. We were delighted</h1>
         </div>
       </div>
