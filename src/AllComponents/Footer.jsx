@@ -50,9 +50,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="container mx-auto text-center mt-4">
-            <p className="text-gray-500">#280, Sarshi, Kasipur, Barishal</p>
-            <p className="text-gray-500">Phone: +8801989618543 | Email: arinahuque23@gmail.com</p>
-            <p className="text-gray-500">Copyright © 2023 - All right reserved by <a href="https://facebook.com/rcmehedi15" className='text-red-400 '>Arina Huque <span className="text-xl text-black font-serif"> Rafa </span></a></p>
+            <p className="text-blue-700">#280, Sarshi, Kasipur, Barishal</p>
+            <p className="text-blue-700">Phone: +8801989618543 | Email: arinahuque23@gmail.com</p>
+            <p className="text-blue-700">Copyright © 2023 - All right reserved by <a href="https://facebook.com/rcmehedi15" className='text-red-400 '>Arina Huque <span className="text-xl text-black font-serif"> Rafa </span></a></p>
           </div>
         </footer>
   

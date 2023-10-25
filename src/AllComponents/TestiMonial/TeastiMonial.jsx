@@ -3,13 +3,13 @@
 const TestiMonial = () => {
 
   return (
-    <div className=" ">
+    <div className=" mb-8 mt-6">
       <div className="" >
         <h3 className="text-3xl font-bold mb-5 text-red-400 hover:text-purple-400 text-center underline ">
           Our Clients Reviews
         </h3>
         <div className="mb-10 gap-4  grid grid-cols-1 lg:grid-cols-3 ml-16">
-        <div className="card h-[40vh] card-compact bg-pink-200 border w-96  shadow-xl">
+        <div className="card h-[50vh] card-compact bg-pink-200 border w-96  shadow-xl">
         <div className="avatar">
           <div className=" flex w-24 ml-[130px]  mt-2 rounded-full">
           <img src="https://i.ibb.co/VM7hz8B/photo-3376528-2108-ettinger-oliver-010-retouched.jpg" alt="" />
@@ -22,7 +22,7 @@ const TestiMonial = () => {
           <p>The staff was great. The receptionists were very helpful and answered all our questions. The room was clean and bright, and the room service was always on time. Will be coming back! Thank you so much.”</p>
         </div>
       </div>
-        <div className="card h-[40vh] card-compact bg-pink-200 border w-96  shadow-xl">
+        <div className="card  h-[50vh] card-compact bg-pink-200 border w-96  shadow-xl">
         <div className="avatar">
           <div className="w-24 ml-[130px]  mt-2 rounded-full">
           <img src="https://i.ibb.co/rmG5vms/images-11.jpg" alt="" />
@@ -33,7 +33,7 @@ const TestiMonial = () => {
           <h1>“I recently had the pleasure of staying at [HotelName], and it was an unforgettable experience. From the moment I arrived, the staff went above and beyond to ensure my comfort and satisfaction.!</h1>
         </div>
       </div>
-        <div className="card h-[40vh] card-compact bg-pink-200 border w-96  shadow-xl">
+        <div className="card  h-[50vh] mb-7 card-compact bg-pink-200 border w-96  shadow-xl">
         <div className="avatar">
           <div className="w-24 ml-[130px]  mt-2 rounded-full">
           <img src="https://i.ibb.co/bFL4cpq/Resume-Writing-Services-CV-GUYS.webp" alt="" />
