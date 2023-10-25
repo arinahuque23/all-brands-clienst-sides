@@ -26,58 +26,13 @@ const Advertisements = () => {
 
   return (
     <div>
-      <div className="">
-      <h1></h1>
+      <div className="text-center font-serif text-red-400 mt-4 text-3xl mb-7">
+      <h1>EXPLORE</h1>
+      <p>Explore New place, food, culture around the world and many more</p>
       </div>
 
-      {/*carosel */}
-      {/* <div>
-        <div className="carousel w-full h-[500px]">
-          <div id="item1" className="carousel-item w-full">
-            <img
-              src={BrandName.ads_img_0}
-              className="w-full"
-            />
-          </div>
-          <div id="item2" className="carousel-item w-full">
-            <img
-              src={BrandName.ads_img_1}
-              className="w-full"
-            />
-          </div>
-        
-          <div id="item2" className="carousel-item w-full">
-            <img
-              src={BrandName.ads_img_2}
-              className="w-full"
-            />
-          </div>
-        
-          <div id="item2" className="carousel-item w-full">
-            <img
-              src={BrandName.ads_img_3}
-              className="w-full"
-            />
-          </div>
-        
-        </div>
-        <div className="flex justify-center w-full py-2 gap-2">
-          <a href="#item1" className="btn btn-xs">
-            1
-          </a>
-          <a href="#item2" className="btn btn-xs">
-            2
-          </a>
-          <a href="#item3" className="btn btn-xs">
-            3
-          </a>
-          <a href="#item3" className="btn btn-xs">
-            4
-          </a>
-        </div>
-      </div> */}
 
-<div className="carousel  h-[500px] mt-[200px] w-full">
+<div className="carousel  h-[500px] mt-6 w-full">
   <div id="slide1" className="carousel-item relative w-full">
     <img src={BrandName.ads_img_0} className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -109,7 +64,7 @@ const Advertisements = () => {
 </div>
 
       <div className="border-2 border-gray-200 p-2 m-2 rounded-xl">
-        <h2 className="text-xl md:text-5xl font-bold text-center my-6 md:my-16">
+        <h2 className="text-xl text-red-400 md:text-5xl font-bold text-center my-6 md:my-16">
           Our Featured Products
         </h2>
         <div>
