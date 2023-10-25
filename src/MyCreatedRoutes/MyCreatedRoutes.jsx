@@ -22,7 +22,7 @@ const router = createBrowserRouter ([
         {
             path: "/",
             element : <Home></Home>,
-            loader : ()=> fetch('http://localhost:4000/adsBrands')
+            loader : ()=> fetch('https://all-brands-server-side-nzbg6s2fy-arina-huque-rafas-projects.vercel.app/adsBrands')
             
         },
         {
@@ -42,22 +42,22 @@ const router = createBrowserRouter ([
         {
             path: "/adsSection/:id",
             element: <PrivatesRoute> <Advertisements></Advertisements></PrivatesRoute>,
-            loader: ({ params }) =>fetch( `http://localhost:4000/adsBrands/${params.id}` ),
+            loader: ({ params }) =>fetch( `https://all-brands-server-side-nzbg6s2fy-arina-huque-rafas-projects.vercel.app/adsBrands/${params.id}` ),
           },
         ///adsSection/:id
         {
             path:"/addproducts",
-            element: <FormTwoClients></FormTwoClients>
+            element:<PrivatesRoute><FormTwoClients></FormTwoClients></PrivatesRoute>
         },
         {
             path: "/addtoCart",
             element:<PrivatesRoute> <MyCart></MyCart></PrivatesRoute>,
-            loader : ()=> fetch('http://localhost:4000/addtoCart')
+            loader : ()=> fetch('https://all-brands-server-side-nzbg6s2fy-arina-huque-rafas-projects.vercel.app/addtoCart')
         },
         {
           path : "/edit/:id",
           element: <Edit></Edit>,
-          loader : ({params}) => fetch(`http://localhost:4000/addProducts20/${params.id}`)
+          loader : ({params}) => fetch(`https://all-brands-server-side-nzbg6s2fy-arina-huque-rafas-projects.vercel.app/addProducts20/${params.id}`)
         },
         {
             path: "/login",
