@@ -48,7 +48,10 @@ const DetailsPage = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center ">
+    <div >
+      <h2 className="text-3xl text-red-400 text-center  font-serif mt-8">Add Your Favorites Items </h2>
+    <div className="flex justify-center items-center mt-8">
+      
       
       <div className="hero glass border border-black m-15 mt-6 ml-16 mr-16 mb-5 rounded">
         <div className="hero-content flex-col lg:flex-row">
@@ -66,6 +69,7 @@ const DetailsPage = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
