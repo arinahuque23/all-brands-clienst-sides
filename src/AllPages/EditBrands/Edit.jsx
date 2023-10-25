@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 
 const Edit = () => {
   const brandNames = ["Nike", "Adidas", "Gucci", "Zara", "H&M", "Levi's"];
-  const typeNames = ["Perfure", "Clouth", "Shoe", "Former Ware"];
+  const typeNames = ["Perfume", "Clouth", "Shoe", "Former Ware"];
 
   const prod = useLoaderData();
   const {_id, name, brandName,short_descript, type, price, rating, photo } = prod;

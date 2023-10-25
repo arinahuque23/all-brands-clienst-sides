@@ -9,8 +9,8 @@ const Footer = () => {
           <div className="container mx-auto flex flex-wrap justify-between">
             <div className="flex items-center justify-center">
               <img className="h-12 m-4"
-               src="https://i.ibb.co/G7H9c8t/2.jpg" alt="Website Logo"  />
-              <span className="text-red-500 ml-2 font-bold text-lg "><sup className="text-xl font-serif pl-2  ">A U D R E Y <span className="text-2xl text-black">B L O O M</span> </sup></span>
+               src="https://i.postimg.cc/rmsdZRMB/logo.png" alt="Website Logo"  />
+              <span className="text-red-500 ml-2 font-bold text-lg "><sup className="text-xl font-serif pl-2  ">L O U I S  <span className="text-2xl text-black">G L O R I A</span> </sup></span>
             </div>
             <div className="flex items-center">
               <ul className="flex space-x-4">
